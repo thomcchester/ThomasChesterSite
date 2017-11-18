@@ -41,8 +41,6 @@ render() {
 					<ul className='hobbyDivParticularUL DadStuffUl'>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/GoodLengthsOfRope'>Good Lengths of Rope</Link></li>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/DadJokes'>Dad Jokes</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/BeingGoofy'>Being Goofy</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/BrookstoneRelated'>Brookstone/Gadgets</Link></li>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/ComplainingAboutTheWrongTools'>Complaining about not having the right tools</Link></li>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/HomeDepot'>Home Depot</Link></li>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/HurtingOnesSelfWHileTryingToMakeThingsSafer'>Hurting ones self while trying to make things safer</Link></li>
