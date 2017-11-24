@@ -45,7 +45,6 @@ render() {
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/HomeDepot'>Home Depot</Link></li>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/HurtingOnesSelfWHileTryingToMakeThingsSafer'>Hurting ones self while trying to make things safer</Link></li>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/PenDrawer'>PenDrawer</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/Tape'>Tape</Link></li>
 						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/UnqualifiedFixing'>Unqualified Fixing</Link></li>
 					</ul>
 				</div>
