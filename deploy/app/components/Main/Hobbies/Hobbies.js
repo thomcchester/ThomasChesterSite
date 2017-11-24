@@ -38,13 +38,10 @@ class Hobbies extends React.Component {
               <ul className="subHobbyBoxUl">
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/GoodLengthsOfRope'>Rope</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/DadJokes'>Jokes</Link></li>
-                <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/BeingGoofy'>Goofy</Link></li>
-                <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/BrookstoneRelated'>Gadgets</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/ComplainingAboutTheWrongTools'>wrong tools</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/HomeDepot'>Home Depot</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/HurtingOnesSelfWHileTryingToMakeThingsSafer'>Hurting</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/PenDrawer'>Pen Drawer</Link></li>
-                <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/Tape'>Tape</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/UnqualifiedFixing'>Unqualified</Link></li>
               </ul>
             </li>

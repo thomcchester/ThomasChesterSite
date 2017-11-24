@@ -40,10 +40,11 @@ class Navbar extends React.Component {
     );
     })
     return (
-      <nav className='navbar navbar-default navbar-static-top'>
+      <nav className='navbar navbar-default navbar-static-top navbar-fixed-top'>
         <div id='navbar' className='navbar-collapse collapse'>
+        <p className="navbar-brand"><Link to='/'>Home</Link></p>
           <ul className='nav navbar-nav'>
-            <li><Link to='/'>Home</Link></li>
+
             <li><Link to='/Software'>Software</Link></li>
             <li><Link to='/Resume'>Resume</Link></li>
             <li className='dropdown'>
@@ -56,7 +57,6 @@ class Navbar extends React.Component {
                 <li><Link to='/Hobbies/Other'>Other</Link></li>
               </ul>
             </li>
-            <li><Link to='/DailyBlog'>Blog</Link></li>
             <li><Link to='/Story'>Story</Link></li>
             <li></li>
           </ul>

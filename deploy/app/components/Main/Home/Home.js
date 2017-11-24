@@ -70,11 +70,15 @@ class Home extends React.Component {
           </span>
         </h1>
         <h2 className="mainSubHeader">
-          <div className="tcc">Engineer</div>
+          <div className="tcc tcc1">Engineer</div>
           <div className="vertLine"></div>
-          <div className="tcc">Developer</div>
+          <div className="tcc tcc2">Developer</div>
           <div className="vertLine"></div>
-          <div className="tcc">Nerd</div>
+          <div className="tcc tcc3">Dad</div>
+          <div className="vertLine"></div>
+          <div className="tcc tcc2">Husband</div>
+          <div className="vertLine"></div>
+          <div className="tcc tcc1">Nerd</div>
         </h2>
         </div>
 

@@ -31,10 +31,11 @@ class Software extends React.Component {
     var gt=">";
     var atimport="@import"
     var at="@"
+    var apos="'"
+
     return (
-      <div className="totSoft">
-      <div className="softwaref content">
-        <div className="backgroundSoft">
+      <div className="softWareHome">
+      <div className="backgroundSoft">
         <div className="backgroundForLoop">
           <p>var makeStr=function(){sqo}</p>
             <p>&nbsp; &nbsp; &nbsp; str="";</p>
@@ -69,21 +70,121 @@ class Software extends React.Component {
             <p>&nbsp; &nbsp; &nbsp;{lt} /body {gt}</p>
           <p>{lt} /html {gt}</p>
         </div>
-
-
         </div>
-        <div className='softwareA'>
-          <h1 className="softwareHeader">Software</h1>
-          <div className="WhySoftware">
-            <h2 className="headSoftwareIndividual">Why Software?</h2>
-            <h3 className="subHeadSoftwareIndividual">The Best of Humanity</h3>
-            <p className="bodySoftwareIndividual">When I first started to program and code I thought the barrier to entry was going to be impossibly hard to overcome and once over the initial hurdle it would start to become easier. I had studied mathematics and physics, so I did have a fairly good understanding of what I was getting into, however I really believed I was going to have learn so much to do any of what I wanted. I could not have been more wrong.</p>
-            <p className="bodySoftwareIndividual">Getting started proved to be much easier then I have previously imagined. However it just kept getting harder. That is the amazing thing, anyone can start, however it takes dedication to excel. I could help but draw the metaphor that it is much like the ideal democracy and modern society strive for. Anyone can enter but the hardest working, smartest, and creative people can achieve just about anything they set out to complete.</p>
-            <p className="bodySoftwareIndividual">Furthermore software shows the human desire for understanding and the mastery over our minds and the world around us to create a better society. Now I am sure that I sound like a dentist talking about great teeth are, but let me explain. Not only have been understand and master ferromagnetism to such a manner that we can manipulate quadrillions (or vastly more) semiconductors to store yes/no’s or 1/0’s, but we have been able to manipulate those 1’s and 0’s to create everything from auto-updating pacemakers to Biden memes. It is a testament of our creativity and extreme understanding of logic that we have been able build a world where anyone can connect with anyone else simply by controlling little one’s and zero’s.</p>
+
+        <div className="articles">
+          <div className="article">
+            <div className="ImageArticle">
+              <img className="artImage" src="../../../../../img/pexels-photo-247791.png"/>
+            </div>
+            <div className="titleArticle">
+              <h1>Why Software?</h1>
+            </div>
+            <div className="subTitleArticle">
+              <h2>The Best of Humanity</h2>
+            </div>
+            <div className="articleText">
+              <div className="articleParagraph">
+                <p>
+                  <span>Software is more than games, more than angry dinosaurs, snipchip, mineswooper, NSA-PTA hacking, adult websites, momes, headtime, netflux, and instamicrograms. </span>
+                  <span>Software is the ability to create, express, expand intelligence, understand, and grow humanity to new heights.</span>
+                  <br></br>
+                  <span>.  .  .</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="article">
+            <div className="ImageArticle">
+              <img className="artImage" src="../../../../../img/mernstack.jpeg"/>
+            </div>
+            <div className="titleArticle">
+              <h1>About</h1>
+            </div>
+            <div className="subTitleArticle">
+              <h2>Software On this Site</h2>
+            </div>
+            <div className="articleText">
+              <div className="articleParagraph">
+                <p>This site uses the MERN stack, which is MongoDB, Express, React, Node.</p>
+              </div>
+            </div>
+          </div>
+          <div className="article">
+            <div className="ImageArticle">
+              <img className="artImage" src="../../../../../img/graphql.svg"/>
+            </div>
+            <div className="titleArticle">
+              <h1>Would like to Learn</h1>
+            </div>
+            <div className="subTitleArticle">
+              <h2>and future projects</h2>
+            </div>
+            <div className="articleText">
+              <div className="articleParagraph">
+                <p>blerg</p>
+              </div>
+            </div>
+          </div>
+          <div className="article">
+            <div className="ImageArticle">
+              <img className="artImage" src="../../../../../img/redux.png"/>
+            </div>
+            <div className="titleArticle">
+              <h1>Current Software</h1>
+            </div>
+            <div className="subTitleArticle">
+              <h2>What I am currently using</h2>
+            </div>
+            <div className="articleText">
+              <div className="articleParagraph">
+                <p>blerg</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
+        <div className="article">
+          <div className="ImageArticle">
+            <img className="artImage" src="../../../../../img/python.png"/>
+          </div>
+          <div className="titleArticle">
+            <h1>Previous Software</h1>
+          </div>
+          <div className="subTitleArticle">
+            <h2>Software I would like to go back to</h2>
+          </div>
+          <div className="articleText">
+            <div className="articleParagraph">
+              <p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="article">
+          <div className="ImageArticle">
+            <img className="artImage" src="../../../../../img/idl.jpeg"/>
+          </div>
+          <div className="titleArticle">
+            <h1>Previous Software</h1>
+          </div>
+          <div className="subTitleArticle">
+            <h2>Never want to touch again</h2>
+          </div>
+          <div className="articleText">
+            <div className="articleParagraph">
+              <p>
+                <span>Software is more than games, more than angry dinosaurs, snipchip, mineswooper, NSA-PTA hacking, adult websites, momes, headtime, netflux, and instamicrograms. </span>
+                <span>Software is the ability to create, express, expand intelligence, understand, and grow humanity to new heights.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+
+
+
     );
   }
 }
