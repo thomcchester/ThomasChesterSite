@@ -128,8 +128,7 @@ Bitbucket, Lodash</p>
               <p className="projectHandled"> <strong>• Project Handled</strong>
                 <ul>
                   <li><strong>Project Description:</strong> Developed a gym app allowing for multiple variables and sub variables for a given exercise. It allows one to create particular exercises and track them over time.</li>
-                  <li><strong>Technology Used:</strong> SEAN Stack HTML5, CSS3, JavaScript, AngularJS, Underscore.js, PostgreSQL, Sass,
-Express.js, Node.js.</li>
+                  <li><strong>Technology Used:</strong> SEAN Stack HTML5, CSS3, JavaScript, AngularJS, Underscore.js, PostgreSQL, Sass, Express.js, Node.js.</li>
                 </ul>
               </p>
             </li>

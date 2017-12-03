@@ -36,16 +36,14 @@ render() {
 				</div>
 				<div className="wholeBodyDad">
 				<h1 className='hobbyDivParticularHOne'>I was a dad before becoming a dad</h1>
-				<h2 className='hobbyDivParticualrHTwo'>I have my first on the way, but here are some hobbies I already had:</h2>
+				<h2 className='hobbyDivParticualrHTwo'>Even before my son was born I was basically a dad</h2>
 				<div className='hobbyDivParticularDiv DadStuffOfStuff'>
 					<ul className='hobbyDivParticularUL DadStuffUl'>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/GoodLengthsOfRope'>Good Lengths of Rope</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/DadJokes'>Dad Jokes</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/ComplainingAboutTheWrongTools'>Complaining about not having the right tools</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/HomeDepot'>Home Depot</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/HurtingOnesSelfWHileTryingToMakeThingsSafer'>Hurting ones self while trying to make things safer</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/PenDrawer'>PenDrawer</Link></li>
-						<li className='hobbyDivParticularLI DadStuffLi'><Link to='/Hobbies/DadStuff/UnqualifiedFixing'>Unqualified Fixing</Link></li>
+						<li className='hobbyDivParticularLI DadStuffLi'><div className="circleLink"><Link to='/Hobbies/DadStuff/GoodLengthsOfRope'>Good Lengths of Rope</Link></div></li>
+						<li className='hobbyDivParticularLI DadStuffLi'><div className="circleLink"><Link to='/Hobbies/DadStuff/DadJokes'>Dad Jokes</Link></div></li>
+						<li className='hobbyDivParticularLI DadStuffLi'><div className="circleLink"><Link to='/Hobbies/DadStuff/ComplainingAboutTheWrongTools'>Complaining about not having the right tools</Link></div></li>
+						<li className='hobbyDivParticularLI DadStuffLi'><div className="circleLink"><Link to='/Hobbies/DadStuff/PenDrawer'>PenDrawer</Link></div></li>
+						<li className='hobbyDivParticularLI DadStuffLi'><div className="circleLink"><Link to='/Hobbies/DadStuff/UnqualifiedFixing'>Unqualified Fixing</Link></div></li>
 					</ul>
 				</div>
 				</div>

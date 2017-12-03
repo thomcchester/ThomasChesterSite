@@ -28,13 +28,15 @@ class Hobbies extends React.Component {
 
     return (
       <div className="hobbiesWhole deg">
+        <br></br>
+        <br></br>
         <h1 className="mainHobbies">Hobbies</h1>
         <h2 className="mainHobbies">What We Do Defines Us</h2>
 
         <div className="hobbyBoxOfBoxes">
           <ul className="hobbyBoxUl">
             <li className="hobbyBox DadStuff">
-              <p><Link to='/Hobbies/DadStuff'>Dad Stuff</Link></p>
+              <p className="MainBox"><Link to='/Hobbies/DadStuff'>Dad Stuff</Link></p>
               <ul className="subHobbyBoxUl">
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/GoodLengthsOfRope'>Rope</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/DadStuff/DadJokes'>Jokes</Link></li>
@@ -46,7 +48,7 @@ class Hobbies extends React.Component {
               </ul>
             </li>
             <li className="hobbyBox Nerd">
-              <p className="NerdP"><Link to='/Hobbies/Nerd'>Nerd</Link></p>
+              <p className=" MainBox NerdP"><Link to='/Hobbies/Nerd'>Nerd</Link></p>
               <ul className="subHobbyBoxUl">
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/Nerd/Comics'>Comics</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/Nerd/IOT'>IOT</Link></li>
@@ -57,7 +59,7 @@ class Hobbies extends React.Component {
               </ul>
             </li>
             <li className="hobbyBox Sports">
-              <p><Link to='/Hobbies/Sports'>Sports</Link></p>
+              <p className="MainBox"><Link to='/Hobbies/Sports'>Sports</Link></p>
               <ul className="subHobbyBoxUl">
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/Sports/Skiing'>Skiing</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/Sports/WeightLifting'>Weight Lifting</Link></li>
@@ -71,7 +73,7 @@ class Hobbies extends React.Component {
               </ul>
             </li>
             <li className="hobbyBox hobbiesOther">
-              <p><Link to='/Hobbies/Other'>other</Link></p>
+              <p className="MainBox Other"><Link to='/Hobbies/Other'>other</Link></p>
               <ul className="subHobbyBoxUl">
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/Other/Cooking'>Cooking</Link></li>
                 <li className="subHobbyBoxLI"><Link to='/Hobbies/Other/GettingIntoObscureThingsAndDitchingIt'>new</Link></li>

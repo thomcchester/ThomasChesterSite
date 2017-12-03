@@ -88,6 +88,8 @@ class Software extends React.Component {
                 <p>
                   <span>Software is more than games, more than angry dinosaurs, snipchip, mineswooper, NSA-PTA hacking, adult websites, momes, headtime, netflux, and instamicrograms. </span>
                   <span>Software is the ability to create, express, expand intelligence, understand, and grow humanity to new heights.</span>
+                  <br></br>
+                  <span>.  .  .</span>
                 </p>
               </div>
             </div>
@@ -104,12 +106,13 @@ class Software extends React.Component {
             </div>
             <div className="articleText">
               <div className="articleParagraph">
-                <p>blerg</p>
+                <p>This site uses the MERN stack, which is MongoDB, Express, React, Node.</p>
               </div>
             </div>
           </div>
           <div className="article">
             <div className="ImageArticle">
+              <img className="artImage" src="../../../../../img/graphql.svg"/>
             </div>
             <div className="titleArticle">
               <h1>Would like to Learn</h1>
@@ -125,12 +128,13 @@ class Software extends React.Component {
           </div>
           <div className="article">
             <div className="ImageArticle">
+              <img className="artImage" src="../../../../../img/redux.png"/>
             </div>
             <div className="titleArticle">
               <h1>Current Software</h1>
             </div>
             <div className="subTitleArticle">
-              <h2>What I currently using</h2>
+              <h2>What I am currently using</h2>
             </div>
             <div className="articleText">
               <div className="articleParagraph">
@@ -139,7 +143,42 @@ class Software extends React.Component {
             </div>
           </div>
         </div>
-
+        <div className="article">
+          <div className="ImageArticle">
+            <img className="artImage" src="../../../../../img/python.png"/>
+          </div>
+          <div className="titleArticle">
+            <h1>Previous Software</h1>
+          </div>
+          <div className="subTitleArticle">
+            <h2>Software I would like to go back to</h2>
+          </div>
+          <div className="articleText">
+            <div className="articleParagraph">
+              <p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="article">
+          <div className="ImageArticle">
+            <img className="artImage" src="../../../../../img/idl.jpeg"/>
+          </div>
+          <div className="titleArticle">
+            <h1>Previous Software</h1>
+          </div>
+          <div className="subTitleArticle">
+            <h2>Never want to touch again</h2>
+          </div>
+          <div className="articleText">
+            <div className="articleParagraph">
+              <p>
+                <span>Software is more than games, more than angry dinosaurs, snipchip, mineswooper, NSA-PTA hacking, adult websites, momes, headtime, netflux, and instamicrograms. </span>
+                <span>Software is the ability to create, express, expand intelligence, understand, and grow humanity to new heights.</span>
+              </p>
+            </div>
+          </div>
+        </div>
 
 
         </div>
