@@ -1,6 +1,6 @@
 import React from 'react';
 
-class CurrentSoftware extends React.Component {
+class PreviousNo extends React.Component {
   render(){
     return(
       <div className="fullArticle">
@@ -9,7 +9,7 @@ class CurrentSoftware extends React.Component {
           <h2 className="subHeading"></h2>
           <div className="mainText">
             <p className="Paragraph">
-              <span className="sentence"> current software</span>
+              <span className="sentence"> previous no</span>
             </p>
           </div>
         </div>
@@ -18,4 +18,4 @@ class CurrentSoftware extends React.Component {
   }
 }
 
-export default CurrentSoftware
+export default PreviousNo
