@@ -24,7 +24,6 @@ class SciFi extends React.Component {
 render() {
 
 		return (
-			{/*
 			<div>
 				<h1>SciFi</h1>
 				<h2>I love just about anything SciFi, not Fantasy, you got to have rules!</h2>
@@ -144,31 +143,16 @@ render() {
 						<li> Blade Runner (1982) </li>
 						<li> Guardians of the Galaxy (2014) </li>
 						<li> Ex Machina (2015) </li>
+						<li> Guardians of the Galaxy II (2017)</li>
+						<li> Arrival (2016)</li>
+						<li> Wonder Woman (2017)</li>
+						<li> Thor: Ragnarok (2017)</li>
+						<li> Equilibrium (2002)</li>
+						<li> 28 days later (2002) </li>
+						<li> The Prestige (2006) </li>
+						<li> Pandorum (2009) </li>
 					</ul>
 				</div>
-			</div>
-			*/},
-			<div className="closed">
-				<p className="backClosedOne">Closed</p>
-				<p className="backClosedTwo">Closed</p>
-				<p className="backClosedThree">Closed</p>
-				<p className="backClosedFour">Closed</p>
-				<p className="backClosedFive">Closed</p>
-				<p className="backClosedSix">Closed</p>
-				<p className="frontClosed">It will be up very soon</p>
-				<p className="midClosedOne">Closed</p>
-				<p className="midClosedTwo">Closed</p>
-				<p className="midClosedThree">Closed</p>
-				<p className="midClosedFour">Closed</p>
-				<p className="midClosedFive">Closed</p>
-				<p className="midClosedSix">Closed</p>
-				<p className="midClosedEight">Closed</p>
-				<p className="midClosedNine">Closed</p>
-				<p className="midClosedTen">Closed</p>
-				<p className="midClosedEleven">Closed</p>
-				<p className="midClosedTwelve">Closed</p>
-				<p className="midClosedThirteen">Closed</p>
-				<p className="midClosedFourteen">Closed</p>
 			</div>
 		);
 	}
