@@ -30,12 +30,15 @@ render() {
 				<div className="Identities mathSection">
 					<h3 className="mathSectionHeader">Favorite Identities:</h3>
 						<div className="subMathSection">
-							<h4>&sum;</h4>
+							$a 
+								&sum;
 						</div>
 				</div>
 				<div className="Proofs mathSection">
 					<h3 className="mathSectionHeader">Most Interesting Proofs:</h3>
-
+						<div className="subMathSection">
+							<h3 className="subMathSectionHeader"></h3>
+						</div>
 				</div>
 				<div className="Theorems mathSection">
 					<h3 className="mathSectionHeader">Dope Theorems:</h3>
