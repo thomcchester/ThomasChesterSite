@@ -24,33 +24,28 @@ class Math extends React.Component {
 render() {
 
 		return (
-			{/*
-			<div>
-				<h1>Math Is Cool.</h1>
-				<p>There is not much super cool things I write about or show here at the moment, I will update this to some of my favorite equations and proofs later. That being said I will say that my office walls are whiteboards and I often known to get sucked into an interesting problem.</p>
-			</div>
-			*/},
-			<div className="closed">
-				<p className="backClosedOne">Closed</p>
-				<p className="backClosedTwo">Closed</p>
-				<p className="backClosedThree">Closed</p>
-				<p className="backClosedFour">Closed</p>
-				<p className="backClosedFive">Closed</p>
-				<p className="backClosedSix">Closed</p>
-				<p className="frontClosed">It will be up very soon</p>
-				<p className="midClosedOne">Closed</p>
-				<p className="midClosedTwo">Closed</p>
-				<p className="midClosedThree">Closed</p>
-				<p className="midClosedFour">Closed</p>
-				<p className="midClosedFive">Closed</p>
-				<p className="midClosedSix">Closed</p>
-				<p className="midClosedEight">Closed</p>
-				<p className="midClosedNine">Closed</p>
-				<p className="midClosedTen">Closed</p>
-				<p className="midClosedEleven">Closed</p>
-				<p className="midClosedTwelve">Closed</p>
-				<p className="midClosedThirteen">Closed</p>
-				<p className="midClosedFourteen">Closed</p>
+			<div className="maths">
+				<h1 className="MathHead">Math is Cool.</h1>
+				<h2 className="MathSubHead">If you do not agree, you are probably a moron</h2>
+				<div className="Identities mathSection">
+					<h3 className="mathSectionHeader">Favorite Identities:</h3>
+						<div className="subMathSection">
+							<h4>&sum;</h4>
+						</div>
+				</div>
+				<div className="Proofs mathSection">
+					<h3 className="mathSectionHeader">Most Interesting Proofs:</h3>
+
+				</div>
+				<div className="Theorems mathSection">
+					<h3 className="mathSectionHeader">Dope Theorems:</h3>
+				</div>
+				<div className="Why mathSection">
+					<h3 className="mathSectionHeader">Why Math?</h3>
+				</div>
+				<div className="Ideas mathSection">
+					<h3 className="mathSectionHeader">Coolest Ideas:</h3>
+				</div>
 			</div>
 		);
 	}

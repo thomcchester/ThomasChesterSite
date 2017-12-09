@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 import ResumeStore from './ResumeStore';
 import ResumeActions from './ResumeActions';
+;
 
 class Resume extends React.Component {
 
