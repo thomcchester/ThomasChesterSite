@@ -73,7 +73,7 @@ class Software extends React.Component {
         </div>
 
         <div className="articles">
-          <div className="article">
+          <div className="article"><Link to="software/bestOfHumanity">
             <div className="ImageArticle">
               <img className="artImage" src="../../../../../img/pexels-photo-247791.png"/>
             </div>
@@ -86,15 +86,16 @@ class Software extends React.Component {
             <div className="articleText">
               <div className="articleParagraph">
                 <p>
-                  <span>Software is more than games, more than angry dinosaurs, snipchip, mineswooper, NSA-PTA hacking, adult websites, momes, headtime, netflux, and instamicrograms. </span>
-                  <span>Software is the ability to create, express, expand intelligence, understand, and grow humanity to new heights.</span>
+                  <span></span>
+                  <span></span>
                   <br></br>
                   <span>.  .  .</span>
                 </p>
               </div>
             </div>
+            </Link>
           </div>
-          <div className="article">
+          <div className="article"><Link to="software/softwareOnThisSite">
             <div className="ImageArticle">
               <img className="artImage" src="../../../../../img/mernstack.jpeg"/>
             </div>
@@ -109,8 +110,10 @@ class Software extends React.Component {
                 <p>This site uses the MERN stack, which is MongoDB, Express, React, Node.</p>
               </div>
             </div>
+            </Link>
           </div>
           <div className="article">
+            <Link to="software/wouldLikeToLearn">
             <div className="ImageArticle">
               <img className="artImage" src="../../../../../img/graphql.svg"/>
             </div>
@@ -125,8 +128,10 @@ class Software extends React.Component {
                 <p>blerg</p>
               </div>
             </div>
+            </Link>
           </div>
           <div className="article">
+            <Link to="software/Current">
             <div className="ImageArticle">
               <img className="artImage" src="../../../../../img/redux.png"/>
             </div>
@@ -141,9 +146,11 @@ class Software extends React.Component {
                 <p>blerg</p>
               </div>
             </div>
+            </Link>
           </div>
         </div>
         <div className="article">
+          <Link to="software/PreviousLike">
           <div className="ImageArticle">
             <img className="artImage" src="../../../../../img/python.png"/>
           </div>
@@ -159,8 +166,10 @@ class Software extends React.Component {
               </p>
             </div>
           </div>
+          </Link>
         </div>
         <div className="article">
+          <Link to="softare/previousNo">
           <div className="ImageArticle">
             <img className="artImage" src="../../../../../img/idl.jpeg"/>
           </div>
@@ -178,6 +187,7 @@ class Software extends React.Component {
               </p>
             </div>
           </div>
+          </Link>
         </div>
 
 

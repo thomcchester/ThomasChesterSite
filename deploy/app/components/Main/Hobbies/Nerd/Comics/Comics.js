@@ -28,11 +28,8 @@ class Comics extends React.Component {
 
     return (
       <div>
-        <img className="preacher" src="../../../../../img/preacher.png"/>
-        <img className="deadpool" src="../../../../../img/deadpool.png"/>
-        <img className="spawn" src="../../../../../img/spawn.png"/>
-        <img className="thor" src="../../../../../img/ThorsHammer.png" />
-        <img className="venom" src="../../../../../img/venom.png" />
+        <h1 className="headArt"> This is some amazing comic art I made.</h1>
+        <img className="preacher" src="../../../../../img/artMax.png"/>
       </div>
 
     );

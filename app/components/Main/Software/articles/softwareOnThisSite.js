@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BackgroundSoftware extends React.Component {
+class SoftwareOnThisSite extends React.Component {
   render(){
     return(
       <div className="fullArticle">
@@ -17,3 +17,5 @@ class BackgroundSoftware extends React.Component {
     )
   }
 }
+
+export default SoftwareOnThisSite

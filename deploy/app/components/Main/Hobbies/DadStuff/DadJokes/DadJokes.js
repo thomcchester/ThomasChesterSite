@@ -24,11 +24,12 @@ class DadJokes extends React.Component {
 render() {
 
 		return (
-			<div>
-				<h1>Dad Jokes</h1>
-				<p>When I was younger I wanted to just destroy my father for the constant and repetitive jokes. As I have aged, and my humor has degraded, I have found that dad jokes are best jokes. Now I can honestly say that I am proud of my father for his determination in passing down a tradition of terrible humor.</p>
+			<div className="jokeBody">
+				<h1 className="headJoke">Dad Jokes</h1>
+				<p className="subHeadJoke">When I was younger I wanted to just destroy my father for the constant and repetitive jokes. As I have aged, and my humor has degraded, I have found that dad jokes are best jokes. Now I can honestly say that I am proud of my father for his determination in passing down a tradition of terrible humor.</p>
+				<p className="subHeadJoke">ps. I may or may not get to better styling on this page some day.</p>
 				<h2>Here are many of my favorites, some stolen directly from my father:</h2>
-					<ul>
+					<ul className="bigUl">
 						<li>
 							<ul>
 								<li>My Wife: "I am hungry/tired/frustrated/cold/hot"</li>
@@ -37,6 +38,7 @@ render() {
 								<li>This joke has also degraded since I started, now when ever my wife tells me her current state I just stick my hand out to shake her hand, at this this point she usually punches my hand.</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<ul>
 								<li>Me(speaking to any child):What is your name?</li>
@@ -52,6 +54,7 @@ render() {
 								<li>Explaination: This one is funny because I have never met a child named fred. Calling them Fred is not their name, and no matter what they say I still call them Fred. It is best to act like you agree with them when they say what their real name is but still call them Fred.</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<ul>
 								<li>Cashier at grocery store: Would you like the milk in a bag?</li>
@@ -59,6 +62,7 @@ render() {
 								<li>Explaination: Well this is good one, see what the cashier is really asking is "Should I put the milk carton in a bag", however I am interpreting it as the actual milk itself being switched from the carton to a bag. Side note, you can get milk in a bag.</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<p>My dad still does this one every time we go out to eat.</p>
 							<ul>
@@ -68,6 +72,7 @@ render() {
 								<li>Explaination: Now see, most people would send the rest back if they tasted something they really didnt like in their meal. However that means that must be a fairly full plate to do that. My father however clearly has enjoyed his entire meal which can be inferred by his plate, but his word contradict that idea by stating that it was not good. </li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<ul>
 								<li>Wife: Did you get a hair cut?</li>
@@ -75,6 +80,7 @@ render() {
 								<li>Explaination: This one is funny because it has plays on singular/plural nature of objects vs actions. My wife is referring to the singular action of a spending time in the hair salon/barber shop and having the style of hair changed. I am referring to the plural objects, hairs, having their state changed to a smaller form.</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<p>Another one my father does continously</p>
 							<ul>
@@ -84,6 +90,7 @@ render() {
 								<li>Explaination: Most people would say that speaking more than one language is a way of defining intelligence, wether this is right or wrong is not part of the joke. In the first version, my father implies that everyone speaks english(we can talk about Americentrism at another point) and that the kids can even speak this other native language as well. In the second verson, it must be understood that not being able to speak a one's own primary language very well is a sign that this person lacks intelligence. My father is implying that english is the speaker's first language and that they cannot speak it very well</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<p>This one is from my uncle Charlie</p>
 							<ul>
@@ -92,6 +99,7 @@ render() {
 								<li>Explaination: This is a classic. If you dont get it, let me break it down to simple terms. See, the mountains are the view that we are looking at and my uncle is saying that what we want to look at is behind the mountains.</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<ul>
 								<li>*whenever anybody is about to bite into any food, preferrably something like a burger.*</li>
@@ -99,6 +107,7 @@ render() {
 								<li>Explaination: This one might be hard to understand. See clearly one cannot eat a whole burger in one bite, my father tries to make the bet that they cannot eat it in one bite which is a really bad bet.</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<ul>
 								<li>Me:What did the fish say when it ran into the concrete wall?</li>
@@ -107,6 +116,7 @@ render() {
 								<li>Explaination: See people typically use the exclamation "Damn" when they hurt themselves or do something unintentionally. "Dam" is something that is used to hold back water. Since "Dam" and "Damn" are pronounced the same way, and it is implied that the fish ran into a "Dam" the fish makes an exclamation but uses the term "Dam" as in the structure it just hit.</li>
 							</ul>
 						</li>
+						<br></br>
 						<li>
 							<ul>
 								<li>Here is one that needs no explaination at all:</li>
